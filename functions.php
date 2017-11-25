@@ -1,7 +1,7 @@
 <?php
 
 function styleLoader() {
-	wp_enqueue_style('pihkala-style', get_template_directory_uri() . '/pihkala.dev.css', array(), null);
+	wp_enqueue_style('pihkala-style', 'https://cdn.jsdelivr.net/gh/Tutrox/PihkalaStyles@1.0/build/pihkala.min.css', array(), null);
 	wp_enqueue_script('pihkala-js', 'https://cdn.jsdelivr.net/combine/gh/Tutrox/jqc@1.0/jqc.js,npm/bootstrap@4.0.0-beta.2/dist/js/bootstrap.bundle.min.js', array('jquery'), null);
   wp_enqueue_script('pihkala-fonts', 'https://use.edgefonts.net/source-sans-pro:n3,n4,i4,n6,n7.js', array(), null);
 }
