@@ -24,5 +24,12 @@ function registerSidebar() {
 }
 add_action('widgets_init', 'registerSidebar');
 
-add_theme_support('custom-header');
+$customHeaderSettings = array(
+  'flex-width' => true,
+  'width' => 280,
+  'flex-height' => true,
+	'height' => 210,
+);
+
+add_theme_support('custom-header', $customHeaderSettings);
 ?>
