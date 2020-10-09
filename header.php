@@ -4,6 +4,19 @@
   <meta charset="<?php bloginfo('charset'); ?>" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title><?php bloginfo('name'); ?> | <?php the_title(); ?></title>
+  <script>
+    (function(f, a, t, h, o, m){
+      a[h]=a[h]||function(){
+        (a[h].q=a[h].q||[]).push(arguments)
+      };
+      o=f.createElement('script'),
+      m=f.getElementsByTagName('script')[0];
+      o.async=1; o.src=t; o.id='fathom-script';
+      m.parentNode.insertBefore(o,m)
+    })(document, window, '//altra.al-firman.com/tracker.js', 'fathom');
+    fathom('set', 'siteId', 'LFTIM');
+    fathom('trackPageview');
+  </script>
   <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
