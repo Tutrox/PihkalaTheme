@@ -48,4 +48,4 @@
       <div class="col-12 col-sm-3 col-lg-2 order-3 order-sm-1 bg-pihkalagray pt-2 d-print-none">
         <?php get_sidebar(); ?>
       </div>
-      <div class="col order-2 pt-1">
+      <div class="col order-2 p-3">
