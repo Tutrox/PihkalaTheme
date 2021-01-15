@@ -45,7 +45,7 @@
   </nav>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12 col-sm-3 col-lg-2 order-3 order-sm-1 bg-pihkalagray pt-2 d-print-none">
+      <div class="col-sm-3 col-lg-2 order-3 order-sm-1 bg-pihkalagray pt-2 d-print-none">
         <?php get_sidebar(); ?>
       </div>
       <div class="col order-2 p-3">
