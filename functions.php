@@ -3,13 +3,13 @@ function styleLoader()
 {
   wp_enqueue_style(
     'pihkala-style',
-    'https://cdn.jsdelivr.net/gh/Tutrox/PihkalaStyles@1.0.1/build/pihkala.min.css',
+    'https://cdn.jsdelivr.net/gh/Tutrox/PihkalaStyles@1.1.0/build/pihkala.css',
     [],
     null
   );
   wp_enqueue_script(
     'pihkala-js',
-    'https://cdn.jsdelivr.net/npm/bootstrap@4.0.0-beta.3/dist/js/bootstrap.bundle.min.js',
+    'https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js',
     ['jquery'],
     null
   );
