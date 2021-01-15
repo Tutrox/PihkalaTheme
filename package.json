@@ -1,0 +1,23 @@
+{
+  "name": "pihkala-theme",
+  "version": "1.1.0",
+  "description": "The official Pihkala WordPress-theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tutrox/PihkalaTheme.git"
+  },
+  "author": "Tutrox",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Tutrox/PihkalaTheme/issues"
+  },
+  "homepage": "https://github.com/Tutrox/PihkalaTheme#readme",
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.16.1",
+    "prettier": "^2.2.1"
+  }
+}
