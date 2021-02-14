@@ -31,7 +31,7 @@
       <p class="lead"><?php bloginfo('description'); ?></p>
     </div>
   </div>
-  <nav class="navbar navbar-expand-sm navbar-light bg-pihkalamain">
+  <nav class="navbar navbar-expand-sm navbar-light bg-primary">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Avaa kielivalikko">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -45,7 +45,7 @@
   </nav>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-3 col-lg-2 order-3 order-sm-1 bg-pihkalagray pt-2 d-print-none">
+      <div class="col-sm-3 col-lg-2 order-3 order-sm-1 bg-light pt-2 d-print-none">
         <?php get_sidebar(); ?>
       </div>
-      <div class="col order-2 p-3">
+      <div class="col order-2 p-4 px-sm-5 py-sm-4 shadow-sm">

@@ -3,20 +3,20 @@ function styleLoader()
 {
   wp_enqueue_style(
     'pihkala-style',
-    'https://cdn.jsdelivr.net/gh/Tutrox/PihkalaStyles@1.1.0/build/pihkala.css',
+    'https://cdn.jsdelivr.net/gh/Tutrox/PihkalaStyles@1.2.0/build/pihkala.css',
+    [],
+    null
+  );
+  wp_enqueue_style(
+    'pihkala-fonts',
+    'https://tutrox.com/include',
     [],
     null
   );
   wp_enqueue_script(
     'pihkala-js',
-    'https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js',
+    'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js',
     ['jquery'],
-    null
-  );
-  wp_enqueue_script(
-    'pihkala-fonts',
-    'https://use.edgefonts.net/source-sans-pro:n3,n4,i4,n6,n7.js',
-    [],
     null
   );
 }
