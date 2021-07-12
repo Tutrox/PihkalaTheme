@@ -4,19 +4,7 @@
   <meta charset="<?php bloginfo('charset'); ?>" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title><?php bloginfo('name'); ?> | <?php the_title(); ?></title>
-  <script>
-    (function(f, a, t, h, o, m){
-      a[h]=a[h]||function(){
-        (a[h].q=a[h].q||[]).push(arguments)
-      };
-      o=f.createElement('script'),
-      m=f.getElementsByTagName('script')[0];
-      o.async=1; o.src=t; o.id='fathom-script';
-      m.parentNode.insertBefore(o,m)
-    })(document, window, '//altra.al-firman.com/tracker.js', 'fathom');
-    fathom('set', 'siteId', 'LFTIM');
-    fathom('trackPageview');
-  </script>
+  <script async defer data-website-id="82ab9a5a-56e1-4a9c-aaba-16810b74aa9c" data-domains="www.pihkala.info" src="https://tra.al-firman.com/umami.js"></script>
   <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
