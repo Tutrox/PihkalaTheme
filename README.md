@@ -1,5 +1,9 @@
 # PihkalaTheme
 
+**ARCHIVED:** This project is not used anymore and is therefore archived since March 2022
+
+---
+
 This is a WordPress theme for [Pihkala.info](http://pihkala.info) (in Finnish).
 
 ## Development
@@ -12,4 +16,4 @@ wp_enqueue_style('pihkala-style', get_template_directory_uri() . '/pihkala.dev.c
 
 ## Fonts
 
-We use Typekit, so the font URL can't sadly be published in the repository. It should be changed in WordPress before activating the theme.
+We use Typekit, so the font URL can't sadly be published in the repository. It should be changed manually before activating the theme.
